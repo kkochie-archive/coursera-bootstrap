@@ -78,12 +78,8 @@ body {
 .modal-header {
     background-color: $background-dark;
     color: floralwhite;
-    button {
+    .close {
         color:floralwhite;
-    }
-
-    button:hover {
-        color: floralwhite;
     }
 }
 
