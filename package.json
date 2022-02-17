@@ -19,6 +19,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^0.9.1",
     "cssmin": "^0.4.3",
     "grunt": "^1.4.1",
     "grunt-browser-sync": "^0.9.1",
@@ -32,23 +33,25 @@
     "grunt-contrib-watch": "^1.1.0",
     "grunt-filerev": "^2.3.1",
     "grunt-sass": "^3.1.0",
-    "grunt-usemin": "^3.1.1",
+    "grunt-usemin": "^0.1.13",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "htmlmin": "^0.0.7",
     "jit-grunt": "^0.10.0",
     "lite-server": "^2.3.0",
     "node-sass": "^7.0.1",
     "onchange": "^7.1.0",
-    "rimraf": "^2.6.2",
+    "rimraf": "^2.7.1",
     "time-grunt": "^2.0.0",
     "uglifyjs": "^2.4.11",
-    "usemin-cli": "^0.0.7"
+    "usemin-cli": "^0.6.0"
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
     "bootstrap-social": "^5.1.1",
     "engine.io": "^6.1.2",
     "font-awesome": "^4.7.0",
-    "parallelshell": "^3.0.1",
+    "parallelshell": "^3.0.2",
     "uglify": "^0.1.5"
   }
 }
